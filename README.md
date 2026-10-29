@@ -16,7 +16,7 @@ The folders are numbered in the same order as the Methodology chapter of the rep
 EEE4022S_final_year_project_mthsek006/
 │
 ├── README.md                              <- this file
-├── Environmental_Conditions/             <- G and T grid log for every test day
+├── Environmental_Conditions/             <- G and T logs for every test day (main log + DC-load log)
 │
 ├── 1_IV_PV_Verification/
 │   ├── MATLAB_code/   indoorOutdoorIVcurves.m
@@ -131,7 +131,7 @@ The first row of each sheet can be a header row; empty and NaN rows are skipped.
 * `OPX70`, `OPF`, `OPB` = EIS DC operating point (see the folder 6 data README);
 * `R01`, `TAKE2` = run / repeat number; `_PARAMS` = circuit-fit results exported from Nova.
 
-**Environmental conditions.** `Environmental_Conditions/` holds the log of the irradiance and temperature grids, and the test set-up, for every test day. Its README shows which sheet belongs to which data folder.
+**Environmental conditions.** `Environmental_Conditions/` holds the logs of the irradiance and temperature grids, and the test set-up, for every test day: the main test log and the DC-load (indoor and outdoor) log. Its README shows which sheet belongs to which data folder.
 
 ---
 
